@@ -7,21 +7,21 @@
 #' - `price` (numeric): sale price (log10 units)
 #' - `bedrooms` (numeric): number of bedrooms
 #' - `bathrooms` (numeric): number of bathrooms
-#' - `sqft_living` (numeric): size of living space (log10 units)
-#' - `sqft_lot` (numeric): size of property (log10 units)
+#' - `sqft_living` (numeric): size of living space
+#' - `sqft_lot` (numeric): size of property
 #' - `floors` (numeric): number of floors
 #' - `waterfront` (numeric): binary indicator for a waterfront view
 #' - `view` (numeric): rating of the quality of the view
 #' - `condition` (factor): condition of the house (poor to very good)
-#' - `sqft_above` (numeric): size of living space above group (log10)
-#' - `sqft_basement` (numeric):size of living space below group (log10)
+#' - `sqft_above` (numeric): size of living space above group
+#' - `sqft_basement` (numeric):size of living space below group
 #' - `yr_built` (numeric): year build
 #' - `year_renovated` (numeric): year renovated and, if not renovated, the year built
 #' - `zip_code` (factor): zip code
 #' - `latitude` (numeric): latitude
 #' - `longitude` (numeric): longitude
-#' - `nn_sqft_living` (numeric): size of living space (log10 units) of 15 neighbors
-#' - `nn_sqft_lot` (numeric):size of lot (log10 units) of 15 neighbors
+#' - `nn_sqft_living` (numeric): size of living space of 15 neighbors
+#' - `nn_sqft_lot` (numeric):size of lot of 15 neighbors
 #'
 #' @name home_prices
 #' @aliases home_prices

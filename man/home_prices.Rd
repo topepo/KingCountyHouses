@@ -22,21 +22,21 @@ Housing data in Washington State from 2014-05-02 to 2015-05-27. There are
 \item \code{price} (numeric): sale price (log10 units)
 \item \code{bedrooms} (numeric): number of bedrooms
 \item \code{bathrooms} (numeric): number of bathrooms
-\item \code{sqft_living} (numeric): size of living space (log10 units)
-\item \code{sqft_lot} (numeric): size of property (log10 units)
+\item \code{sqft_living} (numeric): size of living space
+\item \code{sqft_lot} (numeric): size of property
 \item \code{floors} (numeric): number of floors
 \item \code{waterfront} (numeric): binary indicator for a waterfront view
 \item \code{view} (numeric): rating of the quality of the view
 \item \code{condition} (factor): condition of the house (poor to very good)
-\item \code{sqft_above} (numeric): size of living space above group (log10)
-\item \code{sqft_basement} (numeric):size of living space below group (log10)
+\item \code{sqft_above} (numeric): size of living space above group
+\item \code{sqft_basement} (numeric):size of living space below group
 \item \code{yr_built} (numeric): year build
 \item \code{year_renovated} (numeric): year renovated and, if not renovated, the year built
 \item \code{zip_code} (factor): zip code
 \item \code{latitude} (numeric): latitude
 \item \code{longitude} (numeric): longitude
-\item \code{nn_sqft_living} (numeric): size of living space (log10 units) of 15 neighbors
-\item \code{nn_sqft_lot} (numeric):size of lot (log10 units) of 15 neighbors
+\item \code{nn_sqft_living} (numeric): size of living space of 15 neighbors
+\item \code{nn_sqft_lot} (numeric):size of lot of 15 neighbors
 }
 }
 \examples{
